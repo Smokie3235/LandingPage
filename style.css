@@ -82,6 +82,7 @@ input:focus{
 }
 #search{
     height: 50px;
+    gap: 10px;
     width: 50px;
     border-radius: 25%;
     background-color: #ffbade;
@@ -98,6 +99,7 @@ input:focus{
     position: relative;
 }
 #watch-anime, .see-more{
+    overflow-y: hidden;
     width: 200px;
     height: 50px;
     background-color: #ffbade;
@@ -231,6 +233,8 @@ li:hover{
     .text-search-container{
         background-image: none;
         text-wrap: pretty;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .search-bar{
         width: 100%;
@@ -264,5 +268,10 @@ li:hover{
     .anime-container{
         gap: 3rem;
     }
+@media (max-width: 450px){
+    *{
+        font-size: 10px;
+    }
+}
 
 }
