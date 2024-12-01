@@ -42,7 +42,7 @@ body{
     padding-right: 50px;
     margin-left: 10%;
     border-radius: 40px;
-    background-image: url(/icon.jpg);
+    background-image: url(./icon.jpg);
     background-position: right;
     background-size: 70% 100%;
     background-repeat: no-repeat;
